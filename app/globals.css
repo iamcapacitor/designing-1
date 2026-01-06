@@ -39,6 +39,6 @@ a:hover{
 
 @media screen and (min-width:1900px){
   html{
-    font-size: 0.9vw !important;
+    font-size: 1vw !important;
   }
 }

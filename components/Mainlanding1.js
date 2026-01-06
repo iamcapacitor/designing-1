@@ -44,8 +44,8 @@ const Mainlanding1 = () => {
             <button className='p-3 border border-blue-500 rounded-full text-blue-700 font-bold hover:shadow shadow-gray-500 '>Contact sales</button>
           </div>
         </div>
-        <div className="box2 h-fit w-[98%] md:w-[90%] max-w-[450px] 2xl:max-w-lg rounded-4xl overflow-hidden hover:rounded-xl transition-all lg:translate-y-10 bg-red-400">
-          <img className='w-auto' src="https://www.gstatic.com/bricks/image/c0deb473-e886-496f-94cf-631303dffb39.jpg" alt="google image" />
+        <div className="box2 h-fit 2xl:aspect-square w-[98%] md:w-[90%] max-w-[450px] 2xl:max-w-lg rounded-4xl overflow-hidden hover:rounded-xl transition-all lg:translate-y-10 bg-red-400">
+          <img className='w-1/1 h-1/1' src="https://www.gstatic.com/bricks/image/c0deb473-e886-496f-94cf-631303dffb39.jpg" alt="google image" />
         </div>
       </main>
 
@@ -57,13 +57,13 @@ const Mainlanding1 = () => {
         </div>
         <div className='cardcontainer border py-[2vw] flex flex-row flex-wrap justify-center xl:justify-start xl:flex-row gap-[2vw]'>
           {cardsarr.map((card , i)=>{
-            return (<div key={i} className="cardtype1 border hover:border-[#00000000] rounded-xl overflow-hidden shadow shadow-gray-500 w-[98%] sm:w-[90%] max-w-[360px] flex items-center bg-white ">
+            return (<div key={i} className="cardtype1 border hover:border-[#00000000] rounded-xl overflow-hidden shadow shadow-gray-500 w-[98%] sm:w-[90%] max-w-[22rem] flex items-center bg-white ">
             <div className='py-3 px-2 w-[65%] sm:w-[70%]  '>
               <h3 className='text-[#5b5f63]'>{card.title}</h3>
               <p className=' text-sm sm:text-md truncate-text'>{card.desc} </p>
             </div>
             <div className='w-[35%] sm:w-[30%]'>
-              <img className='w-auto' src={`${card.imageurl}`} alt="image1" />
+              <img className='w-1/1 h-1/1' src={`${card.imageurl}`} alt="image1" />
             </div>
           </div>)
           })}
