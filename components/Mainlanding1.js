@@ -35,8 +35,8 @@ const Mainlanding1 = () => {
             <span>➡️</span>
           </div>
           <div className='flex flex-col gap-[1vw] text-4xl md:text-5xl'>
-            <div><h2 className=' font-bold bg-gradient-to-b from-amber-500 to-blue-500 bg-clip-text text-transparent '>Kisan farm vegetables</h2></div>
-            <div><h2 className=' font-bold bg-gradient-to-b from-orange-600 to-indigo-300 bg-clip-text text-transparent '>Grows here</h2></div>
+            <div><h2 className=' font-bold bg-linear-to-b from-amber-500 to-blue-500 bg-clip-text text-transparent '>Kisan farm vegetables</h2></div>
+            <div><h2 className=' font-bold bg-linear-to-b from-orange-600 to-indigo-300 bg-clip-text text-transparent '>Grows here</h2></div>
           </div>
           <div className='text-amber-950'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus vel officiis eaque.</div>
           <div className='flex p-1 gap-[2vw] max-sm:flex-col w-full flex-row'>
