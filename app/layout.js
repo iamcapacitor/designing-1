@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Google Cloud computing",
+  title: "Multiple platforms design",
   description: "google cloud computing website / webpage ui clone using tailwindcss",
 };
 
