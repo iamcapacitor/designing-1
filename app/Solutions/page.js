@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 
-const page = () => {
+const Page = () => {
     const [Width, setWidth] = useState(50);
     const image1url = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTE5-RtYEohf77G5HScTRlaXX_-D4DAr3Fyg&s";
     const image2url = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQFMAtnJRqi8snkpzmC71WqROwMVWtxzruVw&s";
@@ -46,4 +46,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page
