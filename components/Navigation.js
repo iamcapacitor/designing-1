@@ -18,7 +18,7 @@ const Navigation = () => {
             </div>
             <ul className='hidden md:flex gap-3 '>
               <li><Link href="/Overview">Overview</Link></li>
-              <li><Link href="#">Solutions</Link></li>
+              <li><Link href="/Solutions">Solutions</Link></li>
               <li><Link href="/Products">Products</Link></li>
               <li><Link href="#">Pricing</Link></li>
               <li><Link href="#">Resources</Link></li>
