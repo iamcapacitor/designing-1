@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from 'react'
+import CarouselComponent from './components/Carousel';
 
 const PricingPage = () => {
   console.log("PricingPage rerendering");
@@ -8,6 +9,7 @@ const PricingPage = () => {
   return (
     <>
       <main className=' h-screen bg-white'>
+        <CarouselComponent/>
         <section >
           <div>
             <section className="pricebook flex flex-row border h-100 py-20 relative">
