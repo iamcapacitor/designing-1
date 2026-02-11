@@ -1,5 +1,6 @@
 "use client"
 import React, { useRef, useEffect } from 'react'
+import Dynamic from './components/dynamic';
 
 // not the best one but it is nice
 const ResourcePage = () => {
@@ -64,6 +65,7 @@ const ResourcePage = () => {
                 this contains css-clip path animation
                 </div>
             </div>
+            <Dynamic></Dynamic>
         </>
     )
 }
