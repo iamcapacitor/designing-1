@@ -76,10 +76,10 @@ const Landing5 = () => {
     return (
         <>
             <section className='min-h-screen py-20 grid place-content-center bg-gray-100' >
-                <div className="innercontainer py-4 w-[95vw] overflow-x-auto  ">
+                <div className="innercontainer py-6 w-[95vw] overflow-x-auto flex flex-col items-center ">
                     <div className='border p-3 relative rounded-sm w-fit'>
-                        <h2 className='px-2 absolute -top-3.5 left-5 bg-gray-100 z-2 '>Contributions chart</h2>
-                        <h2 className='px-2 absolute -bottom-3.5 right-15 bg-gray-100 z-2  '>Total : {total.current}</h2>
+                        <h2 className='px-2 absolute -top-3.5 left-5 bg-gray-100 z-0 '>Contributions chart</h2>
+                        <h2 className='px-2 absolute -bottom-3.5 right-15 bg-gray-100 z-0 '>Total : {total.current}</h2>
                         <div ref={contributioncontainer} className='rounded-sm grid grid-flow-col grid-rows-7 gap-1 w-fit relative z-1' >
                             <span className="skipboxtool"></span>
                             {cc.length && cc.map((e, i) => {
@@ -91,13 +91,13 @@ const Landing5 = () => {
                                         onPointerLeave={handleMouseLeave}
                                     >
                                         <span
-                                            className='bg-black p-1 px-3 rounded-md text-white text-sm origin-center absolute z-5 -translate-x-1/2 -translate-y-10 text-nowrap hidden'>{formatedText(e.value, e.date)}</span>
+                                            className='bg-black p-1 px-3 rounded-md text-white text-sm origin-center absolute z-20 -translate-x-1/2 -translate-y-10 text-nowrap hidden'>{formatedText(e.value, e.date)}</span>
                                     </div>
                                 )
                             })}
                         </div>
                     </div>
-                    <div className='flex justify-center items-center gap-1'>
+                    <div className='flex justify-center w-full items-center gap-1'>
                         <div>colors :</div>
                         <div className="border p-1.5 w-1 rounded-sm cursor-pointer"></div>
                         <div className="border p-1.5 w-1 rounded-sm cursor-pointer bg-green-300 "></div>
