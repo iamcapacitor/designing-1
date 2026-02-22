@@ -1,5 +1,6 @@
 "use client"
 import React , {useEffect} from 'react'
+import Link from 'next/link';
 
 const Mainlanding1 = () => {
   const cardsarr = [
@@ -40,7 +41,7 @@ const Mainlanding1 = () => {
           </div>
           <div className='text-amber-950'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus vel officiis eaque.</div>
           <div className='flex p-1 gap-[2vw] max-sm:flex-col w-full flex-row'>
-            <button className='p-3 border border-blue-500 rounded-full bg-blue-700 text-white hover:shadow shadow-gray-500 '>Get started for free</button>
+            <button className='p-3 border border-blue-500 rounded-full bg-blue-700 text-white hover:shadow shadow-gray-500 '><Link href="/Portfolio" >Get started for free</Link></button>
             <button className='p-3 border border-blue-500 rounded-full text-blue-700 font-bold hover:shadow shadow-gray-500 '>Contact sales</button>
           </div>
         </div>

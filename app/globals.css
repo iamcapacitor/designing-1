@@ -50,3 +50,46 @@ a:hover{
 .clipafter{
   clip-path: circle(70.7% at 50% 50%);
 }
+
+/* Portfolio clip paths */
+.clippath0initial{
+  clip-path: circle(0% at 0 0);
+}
+.clippath0after{
+  clip-path: circle(141.4% at 0 0);
+}
+
+.clippath1initial{
+  clip-path: circle(0% at 0 100%);
+}
+.clippath1after{
+  clip-path: circle(141.4% at 0 100%);
+}
+
+.clippath2initial{
+  clip-path: circle(0% at 100% 100%);
+}
+.clippath2after{
+  clip-path: circle(141.4% at 100% 100%);
+}
+
+.clippath3initial{
+  clip-path: circle(0% at 100% 0);
+}
+.clippath3after{
+  clip-path: circle(141.4% at 100% 0);
+}
+
+.clippath4initial{
+  clip-path: circle(0% at 50% 50%);
+}
+.clippath4after{
+  clip-path: circle(70.7% at 50% 50%);
+}
+
+.clippath5initial{
+  clip-path: circle(0% at 50% 0);
+}
+.clippath5after{
+  clip-path: circle(111.5% at 51% 0);
+}
