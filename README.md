@@ -34,3 +34,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+### How we merged remembercet branch push changes into the master branch using git bash
+```js
+git checkout master
+git pull origin master
+git merge remembercet
+// press i and then insert some commit message and then press Esc and to save and exit press":wq"
+git push origin master
+// done
+git checkout remembercet 
+```
