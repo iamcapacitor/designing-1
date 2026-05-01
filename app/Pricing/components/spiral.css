@@ -1,0 +1,26 @@
+.spiralcontainer{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.spiralcontainer .spiralitem{
+    position: absolute;
+    width: 5rem;
+    top: 20%;
+    left: calc(50% - 2.5rem);
+    transform-style: preserve-3d;
+    transform-origin: center center;
+    transform: perspective(20rem);
+    animation: autoSpiral 10s  linear 0s infinite;
+}
+
+@keyframes autoSpiral {
+    0%{
+        transform: perspective(20rem) rotateX(-45deg) rotateY(0deg) translateZ(50px);
+    }
+    100%{
+        transform: perspective(20rem) rotateX(-45deg) rotateY(720deg) translateZ(500px);
+    }
+}
+
