@@ -2,6 +2,8 @@
 import React, { useState } from 'react'
 import CarouselComponent from './components/Carousel';
 import CarouselComponent2 from './components/Carousel2';
+import SpiralComponent from './components/Spiral';
+import WaterComponent from './components/Water';
 
 const PricingPage = () => {
   console.log("PricingPage rerendering");
@@ -10,6 +12,8 @@ const PricingPage = () => {
   return (
     <>
       <main className=' h-screen bg-white'>
+        <WaterComponent/>
+        <SpiralComponent/>
         <CarouselComponent/>
         <CarouselComponent2/>
         <section >
