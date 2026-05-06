@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Specialbackground from './components/Specialbackground';
 const ProductsPage = () => {
   const cards = [
     {
@@ -31,7 +31,8 @@ const ProductsPage = () => {
   ]
   return (
     <>
-      <section className='bg-white py-30'>
+      <Specialbackground/>
+      <section className='bg-transparent py-30 mt-[100vh]'>
         <article className=' grid grid-cols-1 gap-7 text-center text-lg max-w-4xl mx-auto'>
           <div>
             <h1 className=' text-4xl xl:text-6xl text-center font-bold'>Lorem ipsum dolor sit, amet consectetur adipisicing</h1>
