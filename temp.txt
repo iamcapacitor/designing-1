@@ -1,0 +1,7 @@
+  return (
+    <>
+      <div className='min-h-screen bg-teal-300 max-w-3xl mx-auto'>
+        <FortMap imageurl={testurl} dataset={markers} size={50} ></FortMap>
+      </div>
+    </>
+  )

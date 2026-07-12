@@ -1,0 +1,11 @@
+.markers:hover .descriptionToolTip {
+   visibility: visible;
+   opacity: 1;
+}
+.descriptionToolTip:not(:hover){
+   opacity: 0;
+   visibility: hidden;
+}
+.markers .markerdot{
+   animation-duration: 1s;
+}
