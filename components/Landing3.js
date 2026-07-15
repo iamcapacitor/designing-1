@@ -37,7 +37,7 @@ const Landing3 = () => {
             <button className='p-3 my-3 rounded-full hover:bg-gray-200 hover:text-[#689bed] text-[#8ab4f8] font-bold '>Lorem, ipsum dolor.</button>
 
           </div>
-          <div className="part2_2 lg:max-w-[50rem]">
+          <div className="part2_2 lg:max-w-200">
             <div className='border-2 border-[#ffffff4a] relative aspect-video rounded-2xl overflow-hidden'>
               <Image 
               className='w-auto h-auto' 

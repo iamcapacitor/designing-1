@@ -43,9 +43,9 @@ const ProductsPage = () => {
             ></textarea>
           </div>
           <div className='flex flex-col sm:flex-row items-center justify-center gap-2 xl:gap-5 text-slate-600 font-bold'>
-            <div className='border border-gray-400 p-2 w-9/10 sm:w-1/2 md:w-1/5 rounded-4xl hover:rounded-[0] hover:cursor-pointer transition-all ease-linear  '>Ekam tech</div>
-            <div className='border border-gray-400 p-2 w-9/10 sm:w-1/2 md:w-1/5 rounded-4xl hover:rounded-[0] hover:cursor-pointer transition-all ease-linear  '>Data Sagar</div>
-            <div className='border border-gray-400 p-2 w-9/10 sm:w-1/2 md:w-1/5 rounded-4xl hover:rounded-[0] hover:cursor-pointer transition-all ease-linear  '>General learning</div>
+            <div className='border border-gray-400 p-2 w-9/10 sm:w-1/2 md:w-1/5 rounded-4xl hover:rounded-none hover:cursor-pointer transition-all ease-linear  '>Ekam tech</div>
+            <div className='border border-gray-400 p-2 w-9/10 sm:w-1/2 md:w-1/5 rounded-4xl hover:rounded-none hover:cursor-pointer transition-all ease-linear  '>Data Sagar</div>
+            <div className='border border-gray-400 p-2 w-9/10 sm:w-1/2 md:w-1/5 rounded-4xl hover:rounded-none hover:cursor-pointer transition-all ease-linear  '>General learning</div>
           </div>
           <div><p className=' text-left sm:text-center text-xl max-w-3xl mx-auto p-1'>Today web development job is not an job , it is fake , scam , non-working , only chatgpt using workers work</p></div>
         </article>
